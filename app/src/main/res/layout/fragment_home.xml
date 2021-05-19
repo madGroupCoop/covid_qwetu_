@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/google_pixel_4__4xl__2"
+    android:id = "@+id/homeFragment"
+
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/confirmed1"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+
+        />
+
+    <TextView
+        android:id="@+id/confirmedToday"
+        android:layout_width="56dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:textColor="#80F8F8F8"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
+
+        />
+
+    <TextView
+        android:id="@+id/recoveredToday"
+        android:layout_width="56dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:textColor="#80F8F8F8"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
+
+        />
+
+    <TextView
+        android:id="@+id/deathsToday"
+        android:layout_width="56dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:textColor="#80F8F8F8"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
+
+        />
+
+    <TextView
+        android:id="@+id/recovered1"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:id="@+id/deaths1"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+<!--    <Button-->
+<!--        android:id="@+id/callNow1"-->
+<!--        android:layout_width="81dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.32"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.514" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/sendSMS1"-->
+<!--        android:layout_width="81dp"-->
+<!--        android:layout_height="34dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.66"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.511" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/hospitals1"-->
+<!--        android:layout_width="121dp"-->
+<!--        android:layout_height="103dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.099"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.713" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/doctors1"-->
+<!--        android:layout_width="141dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.807"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.708" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/centers1"-->
+<!--        android:layout_width="135dp"-->
+<!--        android:layout_height="108dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.811"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.94" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/diagnosis1"-->
+<!--        android:layout_width="133dp"-->
+<!--        android:layout_height="108dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.104"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.94" />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

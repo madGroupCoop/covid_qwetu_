@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diagnosispg"
+    tools:context=".DiagnosisPage">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="246dp"
+        android:layout_height="428dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="left"
+        android:scrollbars="vertical"
+        android:text="People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms.\n People with these symptoms may have COVID-19:\n\n
+-Fever or chills\n
+-Cough\n
+-Shortness of breath or difficulty breathing\n
+-Fatigue\n
+-Muscle or body aches\n
+-Headache\n
+-New loss of taste or smell\n
+-Sore throat\n
+-Congestion or runny nose\n
+-Nausea or vomiting\n
+-Diarrhea\n\n
+This list does not include all possible symptoms. CDC will continue to update this list as we learn more about COVID-19. Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness\n\n\n.
+When to Seek Emergency Medical Attention\n-Trouble breathing\n
+-Persistent pain or pressure in the chest\n
+-News confusion\n
+-Inability to wake or stay awake\n
+Pale, gray, or blue-colored skin, lips, or nail beds, depending on skin tone\n\n\n
+Prevent Getting Sick\n
+-Wear a mask\n
+-Stay 6 feet away from others\n
+-Get Vaccinated\n
+-Avoid crowds and poorly ventilated spaces\n
+-Wash your hands often\n
+-Cover coughs and sneezes\n
+-Clean and disinfect\n
+-Monitor your health daily\n
+"
+        android:textColor="#F8F8F8"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
